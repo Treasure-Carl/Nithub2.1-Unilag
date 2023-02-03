@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: "Josefin Sans", sans-serif;
+        box-sizing: border-box;
+      }
+      .container {
+        display: flex;
+        height: 100px;
+        width: 100%;
+        background-color: lightseagreen;
+        margin: 0;
+      }
+      .item a {
+        color: white;
+        justify-content: space-between;
+        flex-basis: 1 2 1;
+        margin: 0;
+        text-decoration: none;/
+      }
+      div:nth-child(1) {
+        justify-self: flex-start;
+        flex-grow: 1;
+      }
+      div:nth-child(2) {
+        justify-self: center;
+        flex-grow: 3;
+        border-right: 1px solid  whitesmoke;
+        border-left: 1px solid whitesmoke;
+        font-size: large;
+      }
+      div:nth-child(3) {
+        justify-self: flex-end;
+        flex-grow: 1;
+      }
+      #num1{
+        display: flex;
+        justify-content: center;
+       align-items:center;
+       font-size: 48px;
+       
+      }
+      #num2{
+        display: flex;
+        justify-content: center;
+       align-items:center;
+       font-size: 30px; 
+      }
+      #num3{
+        display: flex;
+        justify-content: center;
+        
+       align-items:center;
+       font-size: 24px;
+      }
+      #num3 input{
+        font-size: 15px; 
+        border-radius:15px;
+        background-color:whitesmoke;
+       
+      }
+      article{
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      #main {
+        background-color: whitesmoke;
+        margin: 10px 25px;
+      }
+      #section1 {
+        background-color: darkturquoise;
+        height: 20px;
+      }
+      
+      header span {
+        color: blue;
+      }
+      header h1 {
+        font-weight: 800px;
+        font-family: Arial;
+      }
+      p img{
+        height: 470px;
+        width: 570px;
+      }
+      p{
+        font-weight: 10;
+        font:thin ;
+      }
+      aside{
+         margin-left: 50px;
+        margin-right: 50px;
+        display: flex;
+        justify-content: center;
+        
+        align-items:center;
+      }
+
+      h3{
+        font-weight: 300;
+        font-family: Helvetica;
+      }
+      footer{
+        height:50px;
+        background-color: aqua;
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="item">
+          <br />
+          <h1>
+          <a href="" id="num1"><i class="fa fa-bars"></i></a>
+          </h1>
+        </div>
+        <div class="item" id="num2">
+          <br />
+          <h3 id="num2"><a href="#">Whatis.com</a></h3>
+        </div>
+        <div class="item" id="num3">
+          <br />
+          <h1>
+            <a href="#"><i class="fa fa-search"></i></a>
+            <input type="text">
+          </h1>
+        </div>
+      </div>
+    </nav>
+    <main id="main">
+      <article>
+      <br />
+      <section id="section1"></section>
+      
+      <header>
+         <br />
+      <h4>Defination</h4>
+      <br />
+        <h1><strong>Open Source</strong></h1>
+        <br />
+        <h5>
+          <p>By<span> Katie Terrell Hanna</span></p>
+        </h5>
+        <br />
+      </header>
+
+      <hr />
+      <br />
+      <br />
+      
+        <h3><strong>What is open source</strong></h3>
+        <br />
+        <p>
+          The term open source refers to any program whose source code is made
+          available for use or modification as users or other developers see
+          fit. Unlike proprietary software, open source software is computer
+          software that is developed as a public, open collaboration and made
+          freely available to the public. The following are several FAQs about
+          open source software.
+        </p>
+        <br />
+        <h3><strong>What is the history of open source software</strong></h3>
+        <br />
+        <p>
+          During the early years of software development, programmers would
+          often share software in order to learn from one another and grow the
+          field of computer programming.
+          <br />
+          <br />
+          This spurred the creation of the Free Software Foundation (FSF) and
+          included David Knuth's TeX typesetting program in 1979 and Richard
+          Stallman's GNU operating system in 1983. In fact, the early web
+          browser Netscape was a free software with source code that would later
+          go on to help develop open source software projects like Mozilla
+          Firefox, a web browser that is still commonly used today.
+
+          <br />
+          <br />
+          The open source movement has not been without its detractors -- for
+          instance, Microsoft's Jim Allchin, who in 2001 stated that the OSI was
+          an "intellectual property destroyer."
+
+          <br />
+          <br />
+          Today, however, Microsoft and many others have joined the free and
+          open source software movement in one way or another. This has created
+          a major shift in how open source software is viewed.
+          <br />
+          <br />
+          Some other open source project contributors, funders and nonprofits
+          include The Linux Foundation, the WordPress Foundation, Creative
+          Commons, the Android Open Source Project and the Mozilla Foundation.
+        </p>
+        <br />
+        <br />
+        <p>
+          <img
+            src="https://cdn.ttgtmedia.com/rms/onlineImages/itops-open_source_by_the_numbers-f.png"
+            alt=""
+          />
+        </p>
+        <br>
+        <br>
+        <h3><strong>What are some examples of open source software licenses?</strong></h3>
+        <br>
+        <h4>To summarize, the open source defination designates that:</h4>
+<br>
+<br>
+        <p>
+<ul>
+  <li>An open source software license is free of charge and redistribution is allowed to anyone without any restriction.</li>
+<li>
+  The source code must be made available so that the receiving party will be able to improve or modify it.
+</li>
+<li>
+  The license can require improved versions of the software to carry a different name or version from the original software.
+  </li>
+  <li>
+    The software may be ported to a new operating system.
+  </li>
+</ul>
+<br>
+
+<p>There have been many notable and widely used open source software licensing agreements to adopt the definition of open source in recent years including:</p>
+ <br>
+
+<ul>
+<li>The Apache web server license</li>
+ <li>The Berkeley Software Distribution license</li>
+ <li>The GNU General Public License </li>
+ <li>The Massachusetts Institute of Technology License</li>
+ <li>The Mozilla Public License</li>
+</ul>     
+</p>
+<p>
+  <img src="https://cdn.ttgtmedia.com/rms/onlineimages/cloudcomputing-popular_open_source_licenses-f.png" alt="Popular open source licenses chat">
+</p>
+<h4><strong>How is open source used in software development?</strong></h4>
+  <br>
+     
+<p>
+      As mentioned previously, open source has played a large role in the software development community. In fact, a generation of open source tools have been developed and are used today by developers to help improve and troubleshoot issues with open source code during the early days of a software's development.
+<br>
+Some examples include:
+<ul>
+  <li>GitHub</li>
+  <li>SourceForge</li>
+  <li>Lunchpad</li>
+</ul>
+
+     </p>
+     <h4><strong>What are some other open source products?</strong></h4>
+<br>
+<p>
+  Open source technology is not limited to software development tools. There are a number of other popular software that falls under the open source umbrella. Examples include:
+<br>
+<ul>
+  <li>
+    <h4>Red Hat Software.</h4><span>An open source software platform, and IBM derivative, that provides a variety of enterprise-level productivity applications.
+
+    </span>
+</li>
+<li>
+  <h4>LibreOffice.</h4><span> An open source office productivity suite, similar to Microsoft Office programs.
+
+  </span>
+</li>
+<li>
+  <h4>GNU Image Manipulation Program.</h4><span>A GNU open source image manipulation tool with similar components to Adobe Photoshop.</span>
+</li>
+<li>
+  <h4>VLC Media Player.</h4><span>An open source audio and video file player.</span>
+</li>
+</ul>
+
+</p>
+<br>
+<p>
+  <img src="https://cdn.ttgtmedia.com/rms/onlineimages/data_center-redhat_vs_suse-f_mobile.png" alt="How Red Hat and SUSE Linux compare">
+
+</p>
+<br>
+<h4><strong>What is the downside to open source programs?</strong></h4>
+<p>
+  While open source licenses have made software generally more affordable and contributed immensely to the growth of software development, its widespread use is considered by many to be negative.
+  <br>
+  <br>
+  This is attributed to the lack of regulation that can open the door to numerous legal issues.
+  <br>
+  <br>
+  Furthermore, determining what should be open source and what should be closed source software remains a difficult and hotly debated topic.
+  <br>
+  <br>
+  To try and settle the debate, the open source community has taken to implementing classification schemes -- typically, dependent upon copyleft provisions in order to determine appropriate use cases for the open source software development model.
+  <br>
+  <br>
+
+</p>
+<p>
+  <img src="https://cdn.ttgtmedia.com/rms/onlineimages/cloud_computng-open_source_pros_and_cons_mobile.png" alt="Open Source prows and coins diagram">
+<br>
+In 2008, the U.S. federal appeals court determined that OSS licenses must have legally binding requirements for any use of copyrighted material.
+<br>
+<br>
+Should an end-user violate these open standards, they will lose their license and, therefore, be in violation of the copyright infringement standard, similar to if they used a proprietary license without authorization.
+
+</p>
+<br>
+<section>
+  <iframe width="526" height="296" src="https://www.youtube.com/embed/exUCyp8PbD4" title="What is Source Code and What Does it Do?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</section>
+<br>
+<br>
+
+</article>
+<br>
+<br>
+    </main>
+    <br>
+    <br>
+<footer>
+  <aside>
+<p>
+  <h3> <strong>Created by: Treasure</strong>
+    </h3>
+  </p>
+  </aside>
+</footer>
+  </body>
+</html>

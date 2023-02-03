@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ff4c68;
+  background-size: cover;
+}
+.logo {
+  font-size: 40px;
+  color: white;
+  font-family: Aria;
+}
+nav {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  justify-content: space-between;
+}
+nav ul li {
+  display: inline-block;
+
+  padding: 10px 80px;
+}
+nav ul li a:hover {
+  color: white;
+  background-color: #ff4c68;
+  font-style: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(207, 201, 201);
+  font-size: 20px;
+}
+main {
+  display: flex;
+}
+section {
+  margin-left: 60px;
+  /* margin-top: 20px; */
+  font-size: 40px;
+  color: white;
+  font-weight: 1000;
+}
+
+.ios {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(26, 22, 22);
+  font-size: large;
+  height: 40px;
+  width: 130px;
+  border-radius: 5px;
+  border: none;
+}
+.ios:hover {
+  background-color: black;
+  cursor:pointer ;
+}
+.playstore {
+  color: white;
+  background-color: #ff4c68;
+  text-decoration: none;
+  font-size: large;
+  font-display: none;
+  height: 40px;
+  width: 130px;
+  border: 1px white solid;
+  border-radius: 5px;
+}
+.playstore:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+
+#dogpic {
+  height: 480px;
+  margin-left: 200px;
+  margin-top: 5px;
+  transform: rotate(30deg);
+}
